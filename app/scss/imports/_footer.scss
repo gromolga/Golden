@@ -1,0 +1,41 @@
+footer{
+	padding: 20px 0;
+	p{
+		float: left;
+		min-width: 40%;
+		margin: 0;
+		line-height: 40px;
+		font-family: "Montserrat";
+		color: #555;
+	}
+	.footer-social{
+		float: left;
+		font-size: 0;
+		line-height: 0;
+		li{
+			font-size: 14px;
+			line-height: 1.2;
+			margin: 0 5px;
+		}
+	}
+	a{
+		display: block;
+		height: 40px;
+		width: 40px;
+		line-height: 50px;
+		text-align: center;
+		border-radius: 50%;
+		background-color: #222;
+		&:hover{
+			box-shadow: 5px 5px 15px #696969;
+		}
+	}
+}
+@media (max-width: 500px) {
+	footer{
+		p, .footer-social{
+			float: none;
+			text-align: center;
+		}
+	}
+}

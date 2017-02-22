@@ -1,0 +1,200 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$commerce-icon-name: 'commerce-icon';
+$commerce-icon-x: 0px;
+$commerce-icon-y: 0px;
+$commerce-icon-offset-x: 0px;
+$commerce-icon-offset-y: 0px;
+$commerce-icon-width: 40px;
+$commerce-icon-height: 39px;
+$commerce-icon-total-width: 98px;
+$commerce-icon-total-height: 77px;
+$commerce-icon-image: '../img/sprite.png';
+$commerce-icon: (0px, 0px, 0px, 0px, 40px, 39px, 98px, 77px, '../img/sprite.png', 'commerce-icon', );
+$facebook-dark-name: 'facebook-dark';
+$facebook-dark-x: 81px;
+$facebook-dark-y: 34px;
+$facebook-dark-offset-x: -81px;
+$facebook-dark-offset-y: -34px;
+$facebook-dark-width: 11px;
+$facebook-dark-height: 19px;
+$facebook-dark-total-width: 98px;
+$facebook-dark-total-height: 77px;
+$facebook-dark-image: '../img/sprite.png';
+$facebook-dark: (81px, 34px, -81px, -34px, 11px, 19px, 98px, 77px, '../img/sprite.png', 'facebook-dark', );
+$facebook-light-name: 'facebook-light';
+$facebook-light-x: 81px;
+$facebook-light-y: 53px;
+$facebook-light-offset-x: -81px;
+$facebook-light-offset-y: -53px;
+$facebook-light-width: 11px;
+$facebook-light-height: 19px;
+$facebook-light-total-width: 98px;
+$facebook-light-total-height: 77px;
+$facebook-light-image: '../img/sprite.png';
+$facebook-light: (81px, 53px, -81px, -53px, 11px, 19px, 98px, 77px, '../img/sprite.png', 'facebook-light', );
+$google-dark-name: 'google-dark';
+$google-dark-x: 81px;
+$google-dark-y: 0px;
+$google-dark-offset-x: -81px;
+$google-dark-offset-y: 0px;
+$google-dark-width: 17px;
+$google-dark-height: 17px;
+$google-dark-total-width: 98px;
+$google-dark-total-height: 77px;
+$google-dark-image: '../img/sprite.png';
+$google-dark: (81px, 0px, -81px, 0px, 17px, 17px, 98px, 77px, '../img/sprite.png', 'google-dark', );
+$google-light-name: 'google-light';
+$google-light-x: 81px;
+$google-light-y: 17px;
+$google-light-offset-x: -81px;
+$google-light-offset-y: -17px;
+$google-light-width: 17px;
+$google-light-height: 17px;
+$google-light-total-width: 98px;
+$google-light-total-height: 77px;
+$google-light-image: '../img/sprite.png';
+$google-light: (81px, 17px, -81px, -17px, 17px, 17px, 98px, 77px, '../img/sprite.png', 'google-light', );
+$lock-icon-name: 'lock-icon';
+$lock-icon-x: 0px;
+$lock-icon-y: 39px;
+$lock-icon-offset-x: 0px;
+$lock-icon-offset-y: -39px;
+$lock-icon-width: 29px;
+$lock-icon-height: 38px;
+$lock-icon-total-width: 98px;
+$lock-icon-total-height: 77px;
+$lock-icon-image: '../img/sprite.png';
+$lock-icon: (0px, 39px, 0px, -39px, 29px, 38px, 98px, 77px, '../img/sprite.png', 'lock-icon', );
+$pinterest-dark-name: 'pinterest-dark';
+$pinterest-dark-x: 46px;
+$pinterest-dark-y: 39px;
+$pinterest-dark-offset-x: -46px;
+$pinterest-dark-offset-y: -39px;
+$pinterest-dark-width: 16px;
+$pinterest-dark-height: 21px;
+$pinterest-dark-total-width: 98px;
+$pinterest-dark-total-height: 77px;
+$pinterest-dark-image: '../img/sprite.png';
+$pinterest-dark: (46px, 39px, -46px, -39px, 16px, 21px, 98px, 77px, '../img/sprite.png', 'pinterest-dark', );
+$pinterest-light-name: 'pinterest-light';
+$pinterest-light-x: 29px;
+$pinterest-light-y: 39px;
+$pinterest-light-offset-x: -29px;
+$pinterest-light-offset-y: -39px;
+$pinterest-light-width: 17px;
+$pinterest-light-height: 21px;
+$pinterest-light-total-width: 98px;
+$pinterest-light-total-height: 77px;
+$pinterest-light-image: '../img/sprite.png';
+$pinterest-light: (29px, 39px, -29px, -39px, 17px, 21px, 98px, 77px, '../img/sprite.png', 'pinterest-light', );
+$responsive-icon-name: 'responsive-icon';
+$responsive-icon-x: 40px;
+$responsive-icon-y: 0px;
+$responsive-icon-offset-x: -40px;
+$responsive-icon-offset-y: 0px;
+$responsive-icon-width: 41px;
+$responsive-icon-height: 35px;
+$responsive-icon-total-width: 98px;
+$responsive-icon-total-height: 77px;
+$responsive-icon-image: '../img/sprite.png';
+$responsive-icon: (40px, 0px, -40px, 0px, 41px, 35px, 98px, 77px, '../img/sprite.png', 'responsive-icon', );
+$twitter-dark-name: 'twitter-dark';
+$twitter-dark-x: 29px;
+$twitter-dark-y: 60px;
+$twitter-dark-offset-x: -29px;
+$twitter-dark-offset-y: -60px;
+$twitter-dark-width: 20px;
+$twitter-dark-height: 16px;
+$twitter-dark-total-width: 98px;
+$twitter-dark-total-height: 77px;
+$twitter-dark-image: '../img/sprite.png';
+$twitter-dark: (29px, 60px, -29px, -60px, 20px, 16px, 98px, 77px, '../img/sprite.png', 'twitter-dark', );
+$twitter-light-name: 'twitter-light';
+$twitter-light-x: 62px;
+$twitter-light-y: 39px;
+$twitter-light-offset-x: -62px;
+$twitter-light-offset-y: -39px;
+$twitter-light-width: 19px;
+$twitter-light-height: 16px;
+$twitter-light-total-width: 98px;
+$twitter-light-total-height: 77px;
+$twitter-light-image: '../img/sprite.png';
+$twitter-light: (62px, 39px, -62px, -39px, 19px, 16px, 98px, 77px, '../img/sprite.png', 'twitter-light', );
+$spritesheet-width: 98px;
+$spritesheet-height: 77px;
+$spritesheet-image: '../img/sprite.png';
+$spritesheet-sprites: ($commerce-icon, $facebook-dark, $facebook-light, $google-dark, $google-light, $lock-icon, $pinterest-dark, $pinterest-light, $responsive-icon, $twitter-dark, $twitter-light, );
+$spritesheet: (98px, 77px, '../img/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

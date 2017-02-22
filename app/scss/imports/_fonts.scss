@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'MontserratRegular';
+	src: url('../fonts/Montserrat/Montserrat-Regular/Montserrat-Regular.eot'),
+		 url('../fonts/Montserrat/Montserrat-Regular/Montserrat-Regular.woff') format('woff'),
+		 url('../fonts/Montserrat/Montserrat-Regular/Montserrat-Regular.ttf') format('truetype'),
+		 url('../fonts/Montserrat/Montserrat-Regular/Montserrat-Regular.svg#MontserratRegular') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'MontserratBold';
+	src: url('../fonts/Montserrat/Montserrat-Bold/Montserrat-Bold.eot'),
+		 url('../fonts/Montserrat/Montserrat-Bold/Montserrat-Bold.woff') format('woff'),
+		 url('../fonts/Montserrat/Montserrat-Bold/Montserrat-Bold.ttf') format('truetype'),
+		 url('../fonts/Montserrat/Montserrat-Bold/Montserrat-Bold.svg#MontserratBold') format('svg');
+	font-style: normal;
+	font-weight: bold;
+}
+@font-face {
+	font-family: 'DroidSerif';
+	src: url('../fonts/DroidSerif/DroidSerif-Italic/DroidSerif-Italic.eot'),
+		 url('../fonts/DroidSerif/DroidSerif-Italic/DroidSerif-Italic.woff') format('woff'),
+		 url('../fonts/DroidSerif/DroidSerif-Italic/DroidSerif-Italic.ttf') format('truetype'),
+		 url('../fonts/DroidSerif/DroidSerif-Italic/DroidSerif-Italic.svg#MontserratBold') format('svg');
+	font-style: italic;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'RobotoSlab';
+	src: url('../fonts/RobotoSlab/RobotoSlab-Regular/RobotoSlab-Regular.eot'),
+		 url('../fonts/RobotoSlab/RobotoSlab-Regular/RobotoSlab-Regular.woff') format('woff'),
+		 url('../fonts/RobotoSlab/RobotoSlab-Regular/RobotoSlab-Regular.ttf') format('truetype'),
+		 url('../fonts/RobotoSlab/RobotoSlab-Regular/RobotoSlab-Regular.svg#MontserratBold') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
